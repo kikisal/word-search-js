@@ -84,7 +84,7 @@ export class WordGrid {
             let placed = false;
             let attempts = 0;
 
-            while (!placed && attempts < 100) {
+            while (!placed && attempts < 1000) {
                 const row = Math.floor(Math.random() * gridSize.rows);
                 const col = Math.floor(Math.random() * gridSize.cols);
                 const [dirRow, dirCol] = directions[Math.floor(Math.random() * directions.length)];

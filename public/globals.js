@@ -1,11 +1,12 @@
 export const Globals = {
     Style: {
         FONT_FAMILY: `Sour Gummy`,
+        TEXT_COLOR: "#242424",
         CELL_SIZE: {
             width: 30,
             height: 30
         },
-        TEXT_MARGIN: 15
+        TEXT_MARGIN: 4
     },
 
     WordSearchConfig: {

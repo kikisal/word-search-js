@@ -10,7 +10,7 @@ export const Globals = {
     },
 
     WordSearchConfig: {
-        gridSize: 10
+        gridSize: 12
     }
 }
 

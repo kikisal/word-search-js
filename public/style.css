@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+canvas {
+    border: 1px solid #000;
+}

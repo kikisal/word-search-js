@@ -16,7 +16,11 @@ class Document {
         // adjust aspect ratio
         this.documentSize.height = this.documentSize.width / this.documentAspectRatio;
 
+        this.pageIndexBoxSize    = Globals.Style.PAGE_INDEX_BOX_SIZE;
+
         this.pages = [];
+
+        this.startPageOffset = 1;
     }
 
     appendPage(page) {
@@ -26,14 +30,53 @@ class Document {
     }
     
     build() {
+        let currentPageIndex = this.startPageOffset;
         for (const page of this.pages) {
             // console.log("building ", page);
             page.canvas.width  = this.documentSize.width;
             page.canvas.height = this.documentSize.height;
             
             page.build();
+            this._drawPageIndex(page, currentPageIndex);
+
             page.setBase64(page.canvas.toDataURL("image/png", 1));
+
+            ++currentPageIndex;
         }
+    }
+
+    _drawPageIndex(page, pageIndex) {
+        const size = this.pageIndexBoxSize;
+
+        page.ctx.save();
+        
+        page.ctx.globalAlpha = 1;
+        // draw page number rounded box
+        page.ctx.beginPath();
+        page.ctx.moveTo(this.documentSize.width / 2 - size / 2, this.documentSize.height);
+        page.ctx.bezierCurveTo(
+            this.documentSize.width / 2 - size / 2 - 20, 
+            this.documentSize.height - size, 
+            this.documentSize.width / 2 + size / 2 + 20, 
+            this.documentSize.height - size,
+            this.documentSize.width / 2 + size / 2, 
+            this.documentSize.height
+        );
+        page.ctx.lineWidth   = Globals.Style.PAGE_INDEX_BOX_LINEWIDTH;
+        page.ctx.strokeStyle = Globals.Style.PAGE_INDEX_BOX_STROKECOLOR;
+        page.ctx.fillStyle   = Globals.Style.PAGE_INDEX_BOX_BACKGROUND;
+        
+        page.ctx.stroke();
+        page.ctx.fill();
+        page.ctx.closePath();
+
+        // draw page number
+        page.ctx.fillStyle = Globals.Style.PAGE_INDEX_TEXTCOLOR;
+        page.ctx.textBaseline = "bottom";
+        page.ctx.font = `${size / 2.5}px ${Globals.Style.FONT_FAMILY}`
+        const textMeasure = page.ctx.measureText(pageIndex);
+        page.ctx.fillText(pageIndex, this.documentSize.width / 2 - textMeasure.width / 2, this.documentSize.height - size / 4 + 16);
+        page.ctx.restore();
     }
 }
 
@@ -1079,6 +1122,8 @@ const documentDescription = {
     ]
 };
 
+documentDescription.categories = documentDescription.categories.slice(0, 20);
+
 const solutionPages = [];
 
 for (const category of documentDescription.categories) {
@@ -1104,7 +1149,7 @@ for (const solutionPage of solutionPages)
 
 documentInstance.build();
 
-for (let i = 0; i < 12; ++i) {
+for (let i = 0; i < 160; ++i) {
     document.body.appendChild(documentInstance.pages[i].canvas);
 }
 

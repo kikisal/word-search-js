@@ -6,7 +6,12 @@ export const Globals = {
             width: 30,
             height: 30
         },
-        TEXT_MARGIN: 4
+        TEXT_MARGIN: 4,
+        PAGE_INDEX_BOX_SIZE: 120,
+        PAGE_INDEX_BOX_LINEWIDTH: 8,
+        PAGE_INDEX_BOX_STROKECOLOR: "#7a7a7a",
+        PAGE_INDEX_BOX_BACKGROUND: "#E6E6E6",
+        PAGE_INDEX_TEXTCOLOR: "#4d4c4c"
     },
 
     WordSearchConfig: {

@@ -15,7 +15,8 @@ export const Globals = {
     },
 
     WordSearchConfig: {
-        gridSize: 12
+        gridSize: [8, 10, 12],
+        maxDifficultyLevels: 3
     }
 }
 

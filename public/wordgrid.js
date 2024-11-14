@@ -1,23 +1,52 @@
+
+function directionFromDifficulty(difficulty) {
+    switch(difficulty) {
+        case 1: 
+            return [
+                [0, 1],   // Right
+                [1, 0],   // Down
+                [-1, 0],  // Up
+                [1, 1],   // Diagonal down-right
+                [1, -1],  // Diagonal down-left
+                [-1, 1],  // Diagonal up-right
+            ];
+        case 2:
+            return [
+                [0, 1],    // Right
+                [0, -1],   // Left
+                [1, 0],    // Down
+                [-1, 0],   // Up
+                [1, 1],    // Diagonal down-right
+                [1, -1],   // Diagonal down-left
+                [-1, 1],   // Diagonal up-right
+                [-1, -1],   // Diagonal up-left
+            ];
+        case 3:
+            return [
+                [0, 1],    // Right
+                [0, -1],   // Left
+                [1, 0],    // Down
+                [-1, 0],   // Up
+                [1, 1],    // Diagonal down-right
+                [1, -1],   // Diagonal down-left
+                [-1, 1],   // Diagonal up-right
+                [-1, -1],   // Diagonal up-left
+            ];
+    }
+}
+
 export class WordGrid {
-    constructor(cols, rows, wordSet) {
-        this.cols          = cols;
-        this.rows          = rows;
-        this.wordSet       = null;
-        this.wordsNoSpace  = null;
-        this.gridData      = null;
-        this.solutionBoxes = [];
+    constructor(cols, rows, wordSet, difficulty) {
+        this.cols              = cols;
+        this.rows              = rows;
+        this.wordSet           = null;
+        this.wordsNoSpace      = null;
+        this.gridData          = null;
+        this.solutionBoxes     = [];
+        this.difficulty        = difficulty;
+        this.allowedDirections = directionFromDifficulty(difficulty);
 
         this.generateWordSearch(wordSet, {cols, rows});
-    }
-
-    generateGrid(wordSet) {
-        this.wordSet = wordSet;
-        this.gridData = new Array(this.rows * this.cols);
-        for (let y = 0; y < this.rows; ++y) {
-            for (let x = 0; x < this.cols; ++x) {
-                this.setLetter(x, y, sampleRandomLetter());
-            }
-        }
     }
 
     generateWordSearch(words, gridSize) {
@@ -30,14 +59,7 @@ export class WordGrid {
 
         this.gridData = Array.from({length: gridSize.cols * gridSize.rows}, (_v, k) => null);
 
-        const directions = [
-            [0, 1],   // Right
-            [1, 0],   // Down
-            [-1, 0],  // Up
-            [1, 1],   // Diagonal down-right
-            [1, -1],  // Diagonal down-left
-            [-1, 1],  // Diagonal up-right
-        ];
+        const directions = this.allowedDirections;
 
         const canPlaceWord = (word, row, col, dirRow, dirCol) => {
             for (let i = 0; i < word.length; i++) {
@@ -138,8 +160,8 @@ function sampleRandomLetter() {
     return alphabet[Math.floor(Math.random() * (alphabet.length - 1))];
 }
 
-export function generateWordGrid(cols, rows, words) {
-    return new WordGrid(cols, rows, words);
+export function generateWordGrid(cols, rows, words, difficulty) {
+    return new WordGrid(cols, rows, words, difficulty);
 }
 
 function removeSpaces(words) {

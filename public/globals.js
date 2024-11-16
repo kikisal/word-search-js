@@ -9,9 +9,9 @@ export const Globals = {
         TEXT_MARGIN: 4,
         PAGE_INDEX_BOX_SIZE: 120,
         PAGE_INDEX_BOX_LINEWIDTH: 8,
-        PAGE_INDEX_BOX_STROKECOLOR: "#7a7a7a",
+        PAGE_INDEX_BOX_STROKECOLOR: "#545353",
         PAGE_INDEX_BOX_BACKGROUND: "#E6E6E6",
-        PAGE_INDEX_TEXTCOLOR: "#4d4c4c"
+        PAGE_INDEX_TEXTCOLOR: "#424242"
     },
 
     WordSearchConfig: {

@@ -23,7 +23,11 @@ export class Document {
 
         this.pages = [];
 
-        this.startPageOffset = 1;
+        this.startPageOffset = 3;
+
+        
+        this.arrowImage = new Image();
+        this.arrowImage.src = "/assets/images/arrow.png";
     }
 
     appendPage(page) {
@@ -43,6 +47,7 @@ export class Document {
             this._drawPageIndex(page, currentPageIndex);
 
             page.setBase64(page.canvas.toDataURL("image/png", 1));
+            page.setIndex(currentPageIndex);
 
             ++currentPageIndex;
         }

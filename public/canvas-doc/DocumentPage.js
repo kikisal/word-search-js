@@ -1,13 +1,18 @@
 export class DocumentPage {
     constructor(pageTitle) {
-        this.pageTitle = pageTitle;
-        this.document  = null;
+        this.pageTitle         = pageTitle;
+        this.document          = null;
         
-        this.canvas      = document.createElement("canvas");
-        this.ctx         = this.canvas.getContext("2d");
-        this.globalYOffset = 0;
+        this.canvas            = document.createElement("canvas");
+        this.ctx               = this.canvas.getContext("2d");
+        this.globalYOffset     = 0;
 
         this.base64UrlSnapshot = null;
+        this.pageIndex         = 0;
+    }
+
+    setIndex(index) {
+        this.pageIndex = index;
     }
 
     setBase64(base64Url) {

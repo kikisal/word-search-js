@@ -5,6 +5,7 @@ import wordSearchApi from "./api/wordsearch.js";
 import { createDocument } from "./canvas-doc/Document.js";
 import { WordSearchGridPage } from "./app/pages/WordSearchGridPage.js";
 import { Globals } from "./globals.js";
+import { BlankPage } from "./app/pages/BlankPage.js";
 
 const wordSearchApp = wordSearchApi.newInstance(true);
 
@@ -23,8 +24,9 @@ const documentInstance = createDocument({
 async function init() {
 
     const documentDescription = (await wordSearchApp.getDocumentDescription());
-    console.log(documentDescription);
-    documentDescription.categories = documentDescription.categories.slice(0, 20);
+    // console.log(documentDescription);
+    // documentDescription.categories = documentDescription.categories.slice(0, 20);
+
 
 
     const solutionPages = [];
@@ -36,12 +38,13 @@ async function init() {
         wordSearchPage.parseData({wordArray: category.items});
     
         documentInstance.appendPage(wordSearchPage);
-    
+        // documentInstance.appendPage(new BlankPage());
     
         const solutionPage = new WordSearchGridPage(category.name);
     
         solutionPage.wordArray      = wordSearchPage.wordArray;
         solutionPage.wordSearchGrid = wordSearchPage.wordSearchGrid;
+        solutionPage.difficulty     = wordSearchPage.difficulty;
         solutionPage.showSolution   = true;
     
         solutionPages.push(solutionPage);
@@ -50,14 +53,18 @@ async function init() {
     for (const solutionPage of solutionPages)
         documentInstance.appendPage(solutionPage);   
     
-    documentInstance.build();
+    setTimeout(() => {
+
+        documentInstance.build();
+    }, 2000);
     
-    for (let i = 0; i < 160; ++i) {
-        document.body.appendChild(documentInstance.pages[i].canvas);
-    }
+    // for visualization
+    for (const page of documentInstance.pages)
+        document.body.appendChild(page.canvas);
     
-    console.log(documentInstance.pages);
-    
+    setTimeout(() => {
+        wordSearchApp.saveDocument(documentInstance);
+    }, 10000);
 }
 
 init();

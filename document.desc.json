@@ -1,0 +1,1444 @@
+{
+    "categories": [
+        {
+            "name": "Santa's Workshop",
+            "items": [
+                "Elf",
+                "Toys",
+                "Gifts",
+                "Reindeer",
+                "Wrapping",
+                "Hammer",
+                "Paint",
+                "Ribbon",
+                "Doll",
+                "Teddy",
+                "Glue",
+                "Sled"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Tree Decorations",
+            "items": [
+                "Star",
+                "Lights",
+                "Ornament",
+                "Garland",
+                "Tinsel",
+                "Angel",
+                "Ribbon",
+                "Bell",
+                "Icicle",
+                "Bow",
+                "Snowman",
+                "Pinecone"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Eve Traditions",
+            "items": [
+                "Stockings",
+                "Cookies",
+                "Milk",
+                "Carols",
+                "Fireplace",
+                "Dinner",
+                "Prayer",
+                "Presents",
+                "Stories",
+                "Church",
+                "Candles",
+                "Santa"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Santa's Reindeer",
+            "items": [
+                "Dasher",
+                "Dancer",
+                "Prancer",
+                "Vixen",
+                "Comet",
+                "Cupid",
+                "Donner",
+                "Blitzen",
+                "Rudolph",
+                "Sleigh",
+                "Hoof",
+                "Antlers"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Winter Wonderland",
+            "items": [
+                "Snow",
+                "Frost",
+                "Ice",
+                "Frozen",
+                "Snowman",
+                "Blizzard",
+                "Skate",
+                "Sledding",
+                "Igloo",
+                "Shovel",
+                "Parka",
+                "Mittens"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Holiday Treats",
+            "items": [
+                "Candy",
+                "Cocoa",
+                "Fudge",
+                "Pie",
+                "Cookies",
+                "Cider",
+                "Ginger",
+                "Peppermint",
+                "Truffle",
+                "Cake",
+                "Brownie",
+                "Marshmallow"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Nativity Scene",
+            "items": [
+                "Manger",
+                "Mary",
+                "Joseph",
+                "Baby",
+                "Sheep",
+                "Wise Men",
+                "Angel",
+                "Star",
+                "Donkey",
+                "Stable",
+                "Frankincense",
+                "Gold"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Songs",
+            "items": [
+                "Jingle",
+                "Bells",
+                "Silent",
+                "Holy",
+                "Night",
+                "Frosty",
+                "Rudolph",
+                "Noel",
+                "Carol",
+                "Drummer",
+                "Choir",
+                "Merry"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Holiday Colors",
+            "items": [
+                "Red",
+                "Green",
+                "Gold",
+                "Silver",
+                "White",
+                "Blue",
+                "Plaid",
+                "Tartan",
+                "Sparkle",
+                "Candy Cane",
+                "Emerald",
+                "Crimson"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Gift Wrapping",
+            "items": [
+                "Bow",
+                "Ribbon",
+                "Paper",
+                "Tape",
+                "Tag",
+                "Box",
+                "Gift Bag",
+                "Scissors",
+                "Twine",
+                "Foil",
+                "Wrap",
+                "Label"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Dinner",
+            "items": [
+                "Turkey",
+                "Ham",
+                "Gravy",
+                "Cranberry",
+                "Stuffing",
+                "Potatoes",
+                "Pudding",
+                "Pie",
+                "Rolls",
+                "Carrots",
+                "Corn",
+                "Roast"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Letters to Santa",
+            "items": [
+                "List",
+                "Envelope",
+                "Stamp",
+                "Ink",
+                "Pen",
+                "Wish",
+                "Elf",
+                "Post",
+                "Seal",
+                "Dear",
+                "Address",
+                "Mail"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Snowy Activities",
+            "items": [
+                "Snowball",
+                "Snowman",
+                "Sled",
+                "Skate",
+                "Ski",
+                "Snowshoe",
+                "Igloo",
+                "Hike",
+                "Build",
+                "Fort",
+                "Slide",
+                "Toboggan"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Movies",
+            "items": [
+                "Elf",
+                "Grinch",
+                "Home Alone",
+                "Santa",
+                "Miracle",
+                "Scrooge",
+                "Holiday",
+                "Jack Frost",
+                "Rudolph",
+                "Krampus",
+                "Nutcracker",
+                "Frozen"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Holiday Lights",
+            "items": [
+                "String",
+                "Lantern",
+                "Glow",
+                "Bright",
+                "Candle",
+                "Twinkle",
+                "Bulb",
+                "Shine",
+                "Flicker",
+                "Decor",
+                "Beam",
+                "Sparkle"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Polar Express",
+            "items": [
+                "Train",
+                "Ticket",
+                "Conductor",
+                "Bell",
+                "Track",
+                "Hot Cocoa",
+                "Steam",
+                "Snow",
+                "Whistle",
+                "Ride",
+                "Night",
+                "Journey"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas at the North Pole",
+            "items": [
+                "Elf",
+                "Igloo",
+                "Santa",
+                "Sleigh",
+                "Workshop",
+                "Aurora",
+                "Penguin",
+                "Polar Bear",
+                "Reindeer",
+                "Snow",
+                "Lights",
+                "Cookies"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Gingerbread House",
+            "items": [
+                "Ginger",
+                "Roof",
+                "Candy",
+                "Wall",
+                "Icing",
+                "Chimney",
+                "Door",
+                "Window",
+                "Peppermint",
+                "Lollipop",
+                "Cookie",
+                "Gumdrop"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Holiday Shopping",
+            "items": [
+                "Mall",
+                "List",
+                "Bags",
+                "Cash",
+                "Cart",
+                "Gifts",
+                "Crowd",
+                "Sales",
+                "Wrap",
+                "Receipt",
+                "Queue",
+                "Toys"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Morning",
+            "items": [
+                "Presents",
+                "Stockings",
+                "Tree",
+                "Coffee",
+                "Family",
+                "Unwrap",
+                "Joy",
+                "Slippers",
+                "Brunch",
+                "Excitement",
+                "Fireplace",
+                "Games"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Caroling Night",
+            "items": [
+                "Songs",
+                "Carols",
+                "Candles",
+                "Sleigh",
+                "Choir",
+                "Joy",
+                "Neighbors",
+                "Voices",
+                "Hats",
+                "Mittens",
+                "Bells",
+                "Merry"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Stocking Stuffers",
+            "items": [
+                "Candy",
+                "Toys",
+                "Notes",
+                "Socks",
+                "Pens",
+                "Keychain",
+                "Gum",
+                "Stickers",
+                "Chocolate",
+                "Puzzle",
+                "Lip Balm",
+                "Cards"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Snow Day",
+            "items": [
+                "Snow",
+                "Sled",
+                "Build",
+                "Igloo",
+                "Skate",
+                "Snowball",
+                "Fort",
+                "Shovel",
+                "Freeze",
+                "Coat",
+                "Mittens",
+                "Parka"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Cozy Fireplace",
+            "items": [
+                "Warm",
+                "Firewood",
+                "Logs",
+                "Blanket",
+                "Cocoa",
+                "Flames",
+                "Smoke",
+                "Stockings",
+                "Crackling",
+                "Chimney",
+                "Ash",
+                "Gloves"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Animals",
+            "items": [
+                "Reindeer",
+                "Polar Bear",
+                "Penguin",
+                "Robin",
+                "Squirrel",
+                "Owl",
+                "Fox",
+                "Hedgehog",
+                "Hare",
+                "Moose",
+                "Cardinal",
+                "Husky"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Holiday Sweaters",
+            "items": [
+                "Ugly",
+                "Knit",
+                "Warm",
+                "Reindeer",
+                "Snowflake",
+                "Tree",
+                "Wool",
+                "Pattern",
+                "Elf",
+                "Santa",
+                "Buttons",
+                "Tinsel"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Christmas Around the World",
+            "items": [
+                "Tradition",
+                "Food",
+                "Dance",
+                "Music",
+                "Santa",
+                "Custom",
+                "Festival",
+                "Lights",
+                "Market",
+                "Gift",
+                "Fireworks",
+                "Parade"
+            ],
+            "difficulty": 1
+        },
+        {
+            "name": "Famous Christmas Stories",
+            "items": [
+                "Scrooge",
+                "Tiny Tim",
+                "Grinch",
+                "Nutcracker",
+                "Miracle",
+                "Elf",
+                "Rudolph",
+                "Santa",
+                "Frosty",
+                "Ghosts",
+                "Holiday",
+                "Snowman"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Holiday Baking",
+            "items": [
+                "Cookies",
+                "Cakes",
+                "Gingerbread",
+                "Pie",
+                "Flour",
+                "Oven",
+                "Rolling Pin",
+                "Sugar",
+                "Spices",
+                "Icing",
+                "Cupcakes",
+                "Pan"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "December Calendar",
+            "items": [
+                "Date",
+                "Holidays",
+                "Advent",
+                "Countdown",
+                "Plans",
+                "Christmas",
+                "Parties",
+                "Decorate",
+                "Celebrate",
+                "New Year",
+                "Shopping",
+                "Events"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Elf Activities",
+            "items": [
+                "Toy Making",
+                "Gift Wrapping",
+                "Painting",
+                "Hammering",
+                "Singing",
+                "Dancing",
+                "Snowball Fights",
+                "Decorating",
+                "Caroling",
+                "Cookie Baking",
+                "Sleigh Riding",
+                "Skating"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Letters and Cards",
+            "items": [
+                "Envelope",
+                "Stamp",
+                "Ink",
+                "Message",
+                "Greeting",
+                "Signature",
+                "Wish",
+                "Post",
+                "Seal",
+                "Address",
+                "Card",
+                "Letter"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Holiday Wishes",
+            "items": [
+                "Joy",
+                "Peace",
+                "Love",
+                "Health",
+                "Happiness",
+                "Prosperity",
+                "Warmth",
+                "Kindness",
+                "Magic",
+                "Laughter",
+                "Comfort",
+                "Dreams"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Christmas Market",
+            "items": [
+                "Stalls",
+                "Gifts",
+                "Food",
+                "Lights",
+                "Tree",
+                "Mulled Wine",
+                "Ornaments",
+                "Candles",
+                "Toys",
+                "Treats",
+                "Music",
+                "Crowd"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Candy Cane Forest",
+            "items": [
+                "Candy",
+                "Red",
+                "White",
+                "Sweet",
+                "Minty",
+                "Stripes",
+                "Forest",
+                "Trees",
+                "Snow",
+                "Branches",
+                "Hiding",
+                "Path"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Festive Pajamas",
+            "items": [
+                "Flannel",
+                "Warm",
+                "Plaid",
+                "Fleece",
+                "Buttons",
+                "Elastic",
+                "Patterns",
+                "Hats",
+                "Socks",
+                "Comfort",
+                "Holiday",
+                "Sleep"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "The Nutcracker",
+            "items": [
+                "Ballet",
+                "Dance",
+                "Soldier",
+                "Mouse King",
+                "Clara",
+                "Tree",
+                "Sugarplum",
+                "Orchestra",
+                "Toys",
+                "Snowflakes",
+                "Magic",
+                "Kingdom"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Holiday Books",
+            "items": [
+                "Stories",
+                "Tales",
+                "Classics",
+                "Illustrations",
+                "Magic",
+                "Characters",
+                "Legends",
+                "Snow",
+                "Merry",
+                "Joyful",
+                "Family",
+                "Tradition"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Ugly Sweater Party",
+            "items": [
+                "Sweater",
+                "Pattern",
+                "Knitted",
+                "Ugly",
+                "Reindeer",
+                "Snowman",
+                "Santa",
+                "Elf",
+                "Lights",
+                "Tinsel",
+                "Laughs",
+                "Photos"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Winter Wildlife",
+            "items": [
+                "Deer",
+                "Fox",
+                "Squirrel",
+                "Owl",
+                "Rabbit",
+                "Bear",
+                "Wolf",
+                "Hawk",
+                "Moose",
+                "Eagle",
+                "Seal",
+                "Penguin"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Christmas Countdown",
+            "items": [
+                "Calendar",
+                "Days",
+                "Advent",
+                "Surprise",
+                "Countdown",
+                "Gifts",
+                "Decor",
+                "Wreath",
+                "Joy",
+                "Plan",
+                "Activities",
+                "Tree"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Holiday Mailbox",
+            "items": [
+                "Letters",
+                "Cards",
+                "Delivery",
+                "Post",
+                "Mail",
+                "Santa",
+                "Envelope",
+                "Stamp",
+                "Wish",
+                "Elf",
+                "Address",
+                "Greeting"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Christmas Parade",
+            "items": [
+                "Floats",
+                "Marching",
+                "Balloons",
+                "Crowds",
+                "Music",
+                "Dancers",
+                "Santa",
+                "Confetti",
+                "Celebration",
+                "Costumes",
+                "Street",
+                "Fireworks"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Holiday Classroom Party",
+            "items": [
+                "Games",
+                "Treats",
+                "Decor",
+                "Presents",
+                "Crafts",
+                "Songs",
+                "Storytime",
+                "Joy",
+                "Santa Hat",
+                "Cards",
+                "Gifts",
+                "Candy"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Warm Winter Drinks",
+            "items": [
+                "Hot Chocolate",
+                "Cider",
+                "Tea",
+                "Coffee",
+                "Marshmallow",
+                "Spices",
+                "Mug",
+                "Cinnamon",
+                "Steam",
+                "Peppermint",
+                "Whipped Cream",
+                "Latte"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Snowy Adventure",
+            "items": [
+                "Ski",
+                "Snowboard",
+                "Snowshoe",
+                "Hike",
+                "Snowmobile",
+                "Igloo",
+                "Toboggan",
+                "Snowball",
+                "Freeze",
+                "Trail",
+                "Peak",
+                "Sledding"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Festive Wreaths",
+            "items": [
+                "Evergreen",
+                "Pinecones",
+                "Ribbon",
+                "Bow",
+                "Ornaments",
+                "Holly",
+                "Berries",
+                "Lights",
+                "Circle",
+                "Decor",
+                "Door",
+                "Candle"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Ornament Collection",
+            "items": [
+                "Glass",
+                "Baubles",
+                "Tinsel",
+                "Shine",
+                "Sparkle",
+                "Tree",
+                "Handmade",
+                "Family",
+                "Star",
+                "Wooden",
+                "Painted",
+                "Hang"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Santa's Sleigh Ride",
+            "items": [
+                "Sleigh",
+                "Reindeer",
+                "Snow",
+                "Gifts",
+                "Chimney",
+                "Night",
+                "Stars",
+                "Jingle",
+                "Sky",
+                "Hooves",
+                "Santa",
+                "Flight"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Wrapping Up the Holidays",
+            "items": [
+                "Boxes",
+                "Paper",
+                "Tape",
+                "Ribbon",
+                "Bow",
+                "Gift",
+                "Decor",
+                "Scissors",
+                "Card",
+                "Tag",
+                "Foil",
+                "String"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Santa's Nice List",
+            "items": [
+                "Good",
+                "Kind",
+                "Nice",
+                "Gift",
+                "Elf",
+                "Wish",
+                "Hope",
+                "List",
+                "Letter",
+                "Child",
+                "Santa",
+                "Magic"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Santa's Naughty List",
+            "items": [
+                "Coal",
+                "Mischief",
+                "Naughty",
+                "Pranks",
+                "Trouble",
+                "Elf",
+                "Gift",
+                "List",
+                "Child",
+                "Hope",
+                "Letter",
+                "Santa"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Christmas in the City",
+            "items": [
+                "Lights",
+                "Storefronts",
+                "Ice Rink",
+                "Crowds",
+                "Snow",
+                "Tree",
+                "Parade",
+                "Markets",
+                "Shopping",
+                "Decor",
+                "Santa",
+                "Cab"
+            ],
+            "difficulty": 2
+        },
+        {
+            "name": "Winter Sports",
+            "items": [
+                "Skiing",
+                "Snowboarding",
+                "Ice Skating",
+                "Hockey",
+                "Snowshoeing",
+                "Sledding",
+                "Curling",
+                "Snowmobiling",
+                "Bobsled",
+                "Avalanche",
+                "Goggles",
+                "Gear"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Festive Feast",
+            "items": [
+                "Turkey",
+                "Ham",
+                "Mashed Potatoes",
+                "Gravy",
+                "Pie",
+                "Rolls",
+                "Stuffing",
+                "Cranberry",
+                "Salad",
+                "Cider",
+                "Casserole",
+                "Pudding"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Magical Snowflakes",
+            "items": [
+                "Unique",
+                "Frozen",
+                "Crystal",
+                "Ice",
+                "Fall",
+                "Drift",
+                "Pattern",
+                "Sparkle",
+                "Cold",
+                "Shimmer",
+                "Whirl",
+                "Flurry"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Elf Names",
+            "items": [
+                "Buddy",
+                "Jingle",
+                "Pepper",
+                "Snowflake",
+                "Twinkle",
+                "Cookie",
+                "Pine",
+                "Spark",
+                "Cinnamon",
+                "Frosty",
+                "Doodle",
+                "Tinsel"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Under the Mistletoe",
+            "items": [
+                "Kiss",
+                "Love",
+                "Green",
+                "Red",
+                "Berries",
+                "Tradition",
+                "Holly",
+                "Branch",
+                "Hug",
+                "Snow",
+                "Decor",
+                "Surprise"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Santa's Sleigh Gear",
+            "items": [
+                "Reins",
+                "Bell",
+                "Bag",
+                "Seat",
+                "Hooves",
+                "Harness",
+                "Magic",
+                "Jingle",
+                "Sleigh",
+                "Wood",
+                "Runners",
+                "Glisten"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Holiday Countdown",
+            "items": [
+                "Days",
+                "Advent",
+                "Joy",
+                "Excitement",
+                "Plan",
+                "Wish",
+                "List",
+                "Decor",
+                "Surprise",
+                "Gifts",
+                "Hope",
+                "Calendar"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Shopping List",
+            "items": [
+                "Toys",
+                "Clothes",
+                "Gadgets",
+                "Books",
+                "Wrapping Paper",
+                "Decor",
+                "Lights",
+                "Gift Cards",
+                "Bows",
+                "Stockings",
+                "Candy",
+                "Games"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Festive Fashion",
+            "items": [
+                "Sweater",
+                "Scarf",
+                "Hat",
+                "Mittens",
+                "Boots",
+                "Jacket",
+                "Dress",
+                "Sparkle",
+                "Sequins",
+                "Plaid",
+                "Gloves",
+                "Coat"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Holiday Cheers",
+            "items": [
+                "Toast",
+                "Laughter",
+                "Joy",
+                "Hugs",
+                "Smiles",
+                "Friends",
+                "Family",
+                "Clink",
+                "Party",
+                "Celebration",
+                "Cheers",
+                "Wishes"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Santa's Beard",
+            "items": [
+                "White",
+                "Fluffy",
+                "Soft",
+                "Curly",
+                "Long",
+                "Santa",
+                "Magic",
+                "Snow",
+                "Brushed",
+                "Warm",
+                "Groomed",
+                "Legend"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Letters to the North Pole",
+            "items": [
+                "Letter",
+                "Post",
+                "Wish",
+                "Santa",
+                "Envelope",
+                "Address",
+                "Elf",
+                "List",
+                "Stamp",
+                "Ink",
+                "Signature",
+                "Mailbox"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Winter Animals",
+            "items": [
+                "Reindeer",
+                "Polar Bear",
+                "Arctic Fox",
+                "Snowy Owl",
+                "Seal",
+                "Penguin",
+                "Wolf",
+                "Moose",
+                "Hare",
+                "Eagle",
+                "Otter",
+                "Lynx"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Family Traditions",
+            "items": [
+                "Tree Decorating",
+                "Caroling",
+                "Baking Cookies",
+                "Storytelling",
+                "Game Night",
+                "Gift Exchange",
+                "Dinner",
+                "Photos",
+                "Ornaments",
+                "Movie Night",
+                "Stockings",
+                "Fireplace"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Candles",
+            "items": [
+                "Flame",
+                "Wax",
+                "Scented",
+                "Glow",
+                "Flicker",
+                "Red",
+                "White",
+                "Gold",
+                "Holder",
+                "Table",
+                "Light",
+                "Warmth"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Santa's Arrival",
+            "items": [
+                "Sleigh",
+                "Reindeer",
+                "Roof",
+                "Chimney",
+                "Jingle",
+                "Magic",
+                "Presents",
+                "Santa",
+                "Laugh",
+                "Cookies",
+                "Milk",
+                "Night"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Cookies",
+            "items": [
+                "Sugar",
+                "Gingerbread",
+                "Chocolate Chip",
+                "Frosting",
+                "Sprinkles",
+                "Shapes",
+                "Dough",
+                "Baking",
+                "Oven",
+                "Sweet",
+                "Decorate",
+                "Plate"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Winter Solstice",
+            "items": [
+                "Shortest Day",
+                "Sun",
+                "Cold",
+                "Snow",
+                "Ancient",
+                "Celebrate",
+                "Stars",
+                "Moon",
+                "Fire",
+                "Tradition",
+                "Sky",
+                "Dark"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Holiday Dance Party",
+            "items": [
+                "Music",
+                "Lights",
+                "Dance",
+                "Moves",
+                "Fun",
+                "Friends",
+                "Celebration",
+                "Beat",
+                "DJ",
+                "Glow",
+                "Joy",
+                "Laughter"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Carols",
+            "items": [
+                "Singing",
+                "Joyful",
+                "Lyrics",
+                "Melody",
+                "Choir",
+                "Hymns",
+                "Tradition",
+                "Harmony",
+                "Music",
+                "Snow",
+                "Angels",
+                "Voices"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Eve Dreams",
+            "items": [
+                "Sleep",
+                "Wish",
+                "Santa",
+                "Presents",
+                "Stars",
+                "Night",
+                "Magic",
+                "Stockings",
+                "Fireplace",
+                "Cozy",
+                "Hopes",
+                "Dream"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Santa's Belt and Boots",
+            "items": [
+                "Black",
+                "Leather",
+                "Shiny",
+                "Buckle",
+                "Gold",
+                "Boots",
+                "Stomp",
+                "Hoof",
+                "Polished",
+                "Heavy",
+                "Santa",
+                "Outfit"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Festive Bells",
+            "items": [
+                "Ringing",
+                "Gold",
+                "Silver",
+                "Joyful",
+                "Loud",
+                "Small",
+                "Big",
+                "Jingle",
+                "Holiday",
+                "Sound",
+                "Music",
+                "Cheer"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Christmas Fairy Tales",
+            "items": [
+                "Magic",
+                "Wish",
+                "Santa",
+                "Elves",
+                "Stories",
+                "Dreams",
+                "Wonder",
+                "Happily",
+                "Ever After",
+                "Snow",
+                "Legends",
+                "Characters"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Frozen Lake Fun",
+            "items": [
+                "Skating",
+                "Ice",
+                "Frozen",
+                "Glide",
+                "Cold",
+                "Snow",
+                "Play",
+                "Slip",
+                "Shiny",
+                "Skates",
+                "Snowflakes",
+                "Adventure"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Holiday Train Ride",
+            "items": [
+                "Tracks",
+                "Whistle",
+                "Steam",
+                "Ride",
+                "Journey",
+                "Snow",
+                "Scenery",
+                "Passengers",
+                "Tickets",
+                "Magic",
+                "Santa",
+                "Lights"
+            ],
+            "difficulty": 3
+        },
+        {
+            "name": "Santa's Map",
+            "items": [
+                "Route",
+                "World",
+                "Cities",
+                "Houses",
+                "Plan",
+                "Journey",
+                "Gifts",
+                "List",
+                "Magic",
+                "Compass",
+                "Night",
+                "Sky"
+            ],
+            "difficulty": 3
+        }
+    ]
+}
